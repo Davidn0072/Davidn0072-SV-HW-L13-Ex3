@@ -1,0 +1,39 @@
+h1 {
+  color: #2E8B57;      /* צבע הטקסט - ירוק ים */
+  font-size: 36px;     /* גודל הגופן */
+  font-family: Arial, sans-serif; /* סוג הגופן */
+  text-align: center;  /* יישור מרכזי */
+  text-transform: uppercase; /* המרה לאותיות גדולות */
+  letter-spacing: 2px; /* רווח בין האותיות */
+  text-shadow: 2px 2px 4px #888888; /* צל לטקסט */
+}
+h2 {
+  color: #3CB371;              /* ירוק רענן יותר */
+  font-size: 28px;             /* קצת קטן יותר מ-h1 */
+  font-family: Arial, sans-serif; 
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;       /* טיפה פחות רווח בין אותיות */
+  text-shadow: 1px 1px 3px #999999; /* צל עדין יותר */
+}
+
+.ctrlInput {
+  font-size: 1em;              /* תואם לגודל הטקסט של label */
+  padding: 0.3em 0.6em;        /* ריפוד נעים */
+  line-height: 1.2;            /* גובה שורה מותאם */
+  box-sizing: border-box;      /* שלא יתנפח בגלל padding */
+  border: 1px solid #555;      /* גבול בסיסי */
+  border-radius: 4px;          /* פינות עגולות (לא חובה) */
+}
+
+.lblctrlInput {
+  font-weight: bold;
+  font-size: 1em; /* שיהיה תואם ל-input */
+}
+.ctrlInputAndLbl {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* ✨ ממרכז לרוחב הדף */
+  gap: 0.5em;
+  margin-bottom: 1em;
+}
